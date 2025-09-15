@@ -36,4 +36,11 @@ customers[0].purchases.push("Phone Case");
 
 console.log("Step 4:", customers);
 
+// display 
+console.log("Step 5:");
+customers.forEach((customer) => {
+  console.log(
+    `Name: ${customer.name}, Email: ${customer.email}, Total Purchases: ${customer.purchases.length}`
+  );
+});
 
