@@ -27,3 +27,13 @@ console.log("Step 3:", customers);
 customers.shift();
 
 console.log("Step 3.:", customers);
+
+// update
+customers[1].email = "jamilya.updated@beet.com";
+
+// add a new purchase 
+customers[0].purchases.push("Phone Case");
+
+console.log("Step 4:", customers);
+
+
